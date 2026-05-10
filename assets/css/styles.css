@@ -687,6 +687,12 @@ main { flex: 1; }
   .form-inline .form-input { flex: 1; min-width: 0; }
 }
 
+/* Notify CTA section — always centered */
+#notify > .container,
+#notify > .container > * {
+  text-align: center;
+}
+
 /* Notify form wrapper — centers the form in CTA sections */
 .notify-form-wrapper {
   display: flex;
