@@ -23,8 +23,8 @@
 
   /* Text */
   --color-text-primary: #ffffff;
-  --color-text-dim:     rgba(255, 255, 255, 0.75);
-  --color-text-muted:   rgba(255, 255, 255, 0.55);
+  --color-text-dim:     rgba(255, 255, 255, 0.85);
+  --color-text-muted:   rgba(255, 255, 255, 0.70);
 
   /* Mark (logo stroke) */
   --color-mark: #ffffff;
