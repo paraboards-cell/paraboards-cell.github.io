@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ParaScooter — ParaBoards</title>
+  <meta name="description" content="The ParaScooter is a scooter-base power attachment for The Chariot. Same attachment model as the Original ParaBoards, different form factor.">
+  <link rel="canonical" href="https://paraboards.com/parascooter/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://paraboards.com/parascooter/">
+  <meta property="og:title" content="ParaScooter — ParaBoards">
+  <meta property="og:description" content="A scooter-base power attachment for The Chariot. Same attachment model as the Original ParaBoards, different form factor.">
+  <meta property="og:site_name" content="ParaBoards">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="ParaScooter — ParaBoards">
+  <meta name="twitter:description" content="A scooter-base power attachment for The Chariot. Same attachment model, different form factor.">
+
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["Organization", "Product"],
+    "name": "ParaBoards LLC",
+    "url": "https://paraboards.com",
+    "mainEntity": {
+      "@type": "Product",
+      "name": "ParaScooter",
+      "description": "A scooter-base power attachment for The Chariot. Uses the same attachment mechanism as the Original ParaBoards, providing an alternative form factor for different terrain and preference.",
+      "brand": { "@type": "Brand", "name": "ParaBoards" },
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/PreOrder",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "priceCurrency": "USD",
+          "minPrice": "800",
+          "maxPrice": "1200"
+        }
+      }
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <a class="skip-nav" href="#main-content">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="nav__logo" href="/" aria-label="ParaBoards — home">
+        <span class="nav__logo-text">ParaBoards</span>
+      </a>
+      <ul class="nav__links" role="list">
+        <li><a href="/system/">System</a></li>
+        <li><a href="/chariot/">The Chariot</a></li>
+        <li><a href="/philosophy/">Philosophy</a></li>
+        <li><a href="/pricing/">Pricing</a></li>
+        <li><a href="/faq/">FAQ</a></li>
+      </ul>
+      <a class="btn btn--primary nav__cta" href="#notify">Get notified</a>
+      <button class="nav__toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-drawer" aria-label="Open navigation" type="button">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+    </nav>
+    <div class="nav__drawer" id="nav-drawer" role="dialog" aria-modal="true" aria-label="Navigation menu">
+      <ul class="nav__drawer-links" role="list">
+        <li><a href="/system/">System</a></li>
+        <li><a href="/chariot/">The Chariot</a></li>
+        <li><a href="/philosophy/">Philosophy</a></li>
+        <li><a href="/pricing/">Pricing</a></li>
+        <li><a href="/faq/">FAQ</a></li>
+        <li><a href="/about/">About</a></li>
+      </ul>
+      <a class="btn btn--primary" href="#notify">Get notified</a>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section class="hero container" aria-labelledby="hero-heading">
+      <p class="eyebrow">ParaScooter</p>
+      <h1 id="hero-heading">Another way to power The Chariot.</h1>
+      <p class="hero__body">
+        The ParaScooter is a scooter-base propulsion attachment for The Chariot. Same attachment mechanism as the Original ParaBoards — different form factor for different terrain and preference. You can own both and swap.
+      </p>
+      <p class="card__price u-mt-4">~$1,000 <span class="card__price-label">projected</span></p>
+      <span class="badge">Coming Soon</span>
+    </section>
+
+    <section class="section surface--secondary" aria-labelledby="detail-heading">
+      <div class="container">
+        <h2 id="detail-heading">Full product detail coming soon</h2>
+        <p>Specs, terrain performance, parts sourcing, and setup documentation will be here when the product is ready. Sign up below to be notified.</p>
+        <p><a href="/system/">See the full system overview &rarr;</a></p>
+      </div>
+    </section>
+
+    <section class="section surface--tertiary" id="notify" aria-labelledby="notify-heading">
+      <div class="container u-text-center">
+        <h2 id="notify-heading">Get notified when ParaScooter is ready</h2>
+        <p>Nothing is for sale yet. We'll let you know when there's something real to share.</p>
+        <div class="notify-form-wrapper">
+          <form data-form="notify" class="form-inline" novalidate aria-label="Notify me form">
+            <div class="form-group">
+              <label class="form-label u-sr-only" for="email-parascooter">Email address</label>
+              <input class="form-input" type="email" id="email-parascooter" name="email" data-field="email" placeholder="your@email.com" autocomplete="email" aria-required="true">
+              <p class="form-error" id="email-parascooter-error" data-error="email" role="alert" hidden></p>
+            </div>
+            <button class="btn btn--primary" type="submit">Notify me</button>
+          </form>
+          <p class="form-success u-text-muted" data-success hidden aria-live="polite">You're on the list. We'll reach out when there's something real to share.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer__inner container">
+      <div class="footer__brand">
+        <a class="footer__logo" href="/" aria-label="ParaBoards — home">ParaBoards</a>
+        <p class="footer__tagline">Everything we do is not that way.</p>
+      </div>
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <div class="footer__nav-col">
+          <p class="footer__nav-heading">Products</p>
+          <ul role="list">
+            <li><a href="/system/">System overview</a></li>
+            <li><a href="/chariot/">The Chariot</a></li>
+            <li><a href="/paraboards/">Original ParaBoards</a></li>
+            <li><a href="/parascooter/">ParaScooter</a></li>
+            <li><a href="/battery/">Battery Box</a></li>
+            <li><a href="/build/">Build your setup</a></li>
+          </ul>
+        </div>
+        <div class="footer__nav-col">
+          <p class="footer__nav-heading">Company</p>
+          <ul role="list">
+            <li><a href="/philosophy/">Philosophy</a></li>
+            <li><a href="/pricing/">Pricing</a></li>
+            <li><a href="/faq/">FAQ</a></li>
+            <li><a href="/about/">About</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="footer__legal container">
+      <p>&copy; 2026 ParaBoards LLC. All rights reserved.</p>
+      <p class="footer__disclaimer">All prices shown are target/projected figures and are not final. Actual pricing may vary.</p>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>

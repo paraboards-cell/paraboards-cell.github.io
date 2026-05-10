@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ParaBoards — A mobility system built differently</title>
+  <meta name="description" content="ParaBoards is a modular mobility system designed around standardized parts, user ownership, and real-world freedom. No proprietary lock-in. Coming soon.">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://paraboards.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="ParaBoards — A mobility system built differently">
+  <meta property="og:description" content="Modular. Standardized. Yours to own and repair. ParaBoards is built against everything wrong with the mobility industry.">
+  <meta property="og:image" content="https://paraboards.com/assets/images/og-home.jpg">
+  <meta property="og:url" content="https://paraboards.com/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Sitemap -->
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+
+  <!-- Preconnect for Google Fonts (v1 — self-host before launch) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <!-- Organization schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "ParaBoards LLC",
+    "url": "https://paraboards.com",
+    "logo": "https://paraboards.com/assets/images/logo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "email": "hello@paraboards.com"
+    }
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- Skip navigation — first focusable element on every page -->
+  <a class="skip-nav" href="#main-content">Skip to main content</a>
+
+  <!-- ======================================================
+       SITE HEADER
+  ====================================================== -->
+  <header class="site-header" role="banner">
+    <nav class="nav container" aria-label="Main navigation">
+
+      <a class="nav__logo" href="/" aria-label="ParaBoards — home">ParaBoards</a>
+
+      <ul class="nav__links" role="list">
+        <li><a href="/system/">System</a></li>
+        <li><a href="/philosophy/">Philosophy</a></li>
+        <li><a href="/pricing/">Pricing</a></li>
+        <li><a href="/faq/">FAQ</a></li>
+        <li><a href="/about/">About</a></li>
+      </ul>
+
+      <a class="btn btn--primary nav__cta" href="#notify">Get updates</a>
+
+      <button
+        class="nav__toggle"
+        id="nav-toggle"
+        aria-controls="nav-drawer"
+        aria-expanded="false"
+        aria-label="Open navigation"
+      >
+        <span class="nav__toggle-icon" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </button>
+
+    </nav>
+  </header>
+
+  <!-- Mobile drawer -->
+  <div
+    class="nav__drawer"
+    id="nav-drawer"
+    aria-label="Mobile navigation"
+    role="dialog"
+    aria-modal="true"
+  >
+    <ul class="nav__drawer-links" role="list">
+      <li><a href="/system/">System</a></li>
+      <li><a href="/philosophy/">Philosophy</a></li>
+      <li><a href="/pricing/">Pricing</a></li>
+      <li><a href="/faq/">FAQ</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+    <div class="nav__drawer-cta">
+      <a class="btn btn--primary w-full" href="#notify">Get updates</a>
+    </div>
+  </div>
+
+
+  <!-- ======================================================
+       MAIN CONTENT
+  ====================================================== -->
+  <main id="main-content">
+
+
+    <!-- HERO — argument first, product second -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container">
+
+        <p class="hero__eyebrow">
+          <span class="badge">Coming soon</span>
+        </p>
+
+        <h1 class="hero__heading" id="hero-heading">
+          The mobility industry built a system that works for itself.
+        </h1>
+
+        <p class="hero__body">
+          Proprietary parts. Locked service chains. Devices designed for insurance approval,
+          not for your life. E-bikes and electric scooters proved that affordable personal
+          transport is possible. That proof exists for everyone who isn't using a wheelchair.
+        </p>
+
+        <p class="hero__body">
+          We're building the alternative.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary btn--lg" href="#notify">Get updates</a>
+          <a class="btn btn--outline btn--lg" href="/system/">How it works</a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- WHAT PARABOARDS IS NOT -->
+    <section class="section surface--secondary" aria-labelledby="not-heading">
+      <div class="container">
+
+        <div class="section-intro">
+          <p class="section-intro__eyebrow label-caps text-muted">The short version</p>
+          <h2 class="section-intro__heading display-md" id="not-heading">
+            Everything we do is not that way.
+          </h2>
+        </div>
+
+        <div class="flex flex-col gap-8" style="max-width: 48rem;">
+
+          <div>
+            <p class="label-caps text-muted mb-4">The mobility industry is:</p>
+            <ul class="not-list" aria-label="What ParaBoards is not">
+              <li>Proprietary parts designed to be replaced only through one service chain</li>
+              <li>Prices set by low volume and corporate overhead, not by what things cost to make</li>
+              <li>Devices designed for insurance approval, not for the life you want to live</li>
+              <li>A repair process that takes weeks and requires a phone call to identify a part</li>
+              <li>One predetermined option at one price point — take it or leave it</li>
+            </ul>
+          </div>
+
+          <p class="not-list__thesis">
+            "Everything we do is not that way."
+          </p>
+
+          <p class="text-muted">
+            ParaBoards is a modular mobility system built on standardized, user-serviceable parts
+            available from common vendors. You own it. You can fix it. If ParaBoards LLC closes
+            tomorrow, your rig still works.
+          </p>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- THE SYSTEM OVERVIEW -->
+    <section class="section" aria-labelledby="system-heading">
+      <div class="container">
+
+        <div class="section-intro">
+          <p class="section-intro__eyebrow label-caps text-muted">The product system</p>
+          <h2 class="section-intro__heading display-md" id="system-heading">
+            One chair. Your configuration.
+          </h2>
+          <p class="section-intro__body">
+            The Chariot is the center. Everything else attaches to it.
+            You don't need everything to start — and you decide what you add.
+          </p>
+        </div>
+
+        <!-- System diagram — Chariot centered, attachments orbiting -->
+        <figure aria-label="ParaBoards system diagram showing The Chariot at center with three attachments">
+          <div class="system-diagram" role="img" aria-describedby="system-diagram-desc">
+
+            <!-- Left column -->
+            <div class="system-diagram__node" style="grid-column:1; grid-row:1;">
+              <span class="system-diagram__node-name">Original ParaBoards</span>
+              <span class="system-diagram__node-price">~$1,000 projected</span>
+            </div>
+
+            <!-- Center — The Chariot -->
+            <div class="system-diagram__center" style="grid-column:2; grid-row:1/4;">
+              <span class="system-diagram__center-label">Center</span>
+              <span class="system-diagram__center-name">The Chariot</span>
+              <span class="system-diagram__center-note">~$1,000 projected</span>
+            </div>
+
+            <!-- Right column -->
+            <div class="system-diagram__node" style="grid-column:3; grid-row:1;">
+              <span class="system-diagram__node-name">ParaScooter</span>
+              <span class="system-diagram__node-price">~$1,000 projected</span>
+            </div>
+
+            <div class="system-diagram__node" style="grid-column:3; grid-row:2;">
+              <span class="system-diagram__node-name">Battery Box</span>
+              <span class="system-diagram__node-price">~$1,000 projected</span>
+            </div>
+
+          </div>
+
+          <figcaption id="system-diagram-desc" class="text-muted text-sm mt-4">
+            The Chariot ships as a capable standalone chair with castor attachment.
+            Power attachments connect to The Chariot using the same interface.
+            A fully configured setup runs approximately $3,000–$4,000 (projected).
+            All prices are target figures — not final.
+          </figcaption>
+        </figure>
+
+        <div class="mt-8">
+          <a class="btn btn--outline" href="/system/">See how the system works</a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- PRODUCTS — all coming soon -->
+    <section class="section surface--secondary" aria-labelledby="products-heading">
+      <div class="container">
+
+        <div class="section-intro">
+          <p class="section-intro__eyebrow label-caps text-muted">Products</p>
+          <h2 class="section-intro__heading display-md" id="products-heading">
+            Four components. One system.
+          </h2>
+          <p class="section-intro__body">
+            All products are currently in development and not yet orderable.
+            Prices are projected targets, not final.
+          </p>
+        </div>
+
+        <div class="grid grid-4 gap-6">
+
+          <!-- The Chariot -->
+          <article class="card" aria-labelledby="card-chariot-title">
+            <p class="card__eyebrow">The Foundation</p>
+            <h3 class="card__title" id="card-chariot-title">The Chariot</h3>
+            <p class="card__body">
+              The chair at the center of the system. Ships as a capable everyday manual chair
+              with castor attachment as standard. Power attachments connect here.
+              The Chariot is designed for this system. Attachments work with The Chariot.
+              That is the whole point.
+            </p>
+            <div class="card__footer">
+              <div>
+                <span class="price">~$1,000</span>
+                <span class="price__label">Projected price</span>
+              </div>
+              <span class="badge">Coming soon</span>
+            </div>
+          </article>
+
+          <!-- Original ParaBoards -->
+          <article class="card" aria-labelledby="card-ob-title">
+            <p class="card__eyebrow">Power Attachment</p>
+            <h3 class="card__title" id="card-ob-title">Original ParaBoards</h3>
+            <p class="card__body">
+              A wheelchair-adapted power skateboard that attaches to The Chariot.
+              Around-town range using standardized, replaceable parts.
+              No proprietary components.
+            </p>
+            <div class="card__footer">
+              <div>
+                <span class="price">~$1,000</span>
+                <span class="price__label">Projected price</span>
+              </div>
+              <span class="badge">Coming soon</span>
+            </div>
+          </article>
+
+          <!-- ParaScooter -->
+          <article class="card" aria-labelledby="card-ps-title">
+            <p class="card__eyebrow">Power Attachment</p>
+            <h3 class="card__title" id="card-ps-title">ParaScooter</h3>
+            <p class="card__body">
+              A scooter-base power alternative using the same attachment interface
+              as the Original ParaBoards. Same system, different ride geometry.
+              Your choice.
+            </p>
+            <div class="card__footer">
+              <div>
+                <span class="price">~$1,000</span>
+                <span class="price__label">Projected price</span>
+              </div>
+              <span class="badge">Coming soon</span>
+            </div>
+          </article>
+
+          <!-- Battery Box -->
+          <article class="card" aria-labelledby="card-bb-title">
+            <p class="card__eyebrow">Power Source</p>
+            <h3 class="card__title" id="card-bb-title">Battery Box</h3>
+            <p class="card__body">
+              Powers the system. Designed to work with both power attachments.
+              Standardized components you can source and replace yourself.
+            </p>
+            <div class="card__footer">
+              <div>
+                <span class="price">~$1,000</span>
+                <span class="price__label">Projected price</span>
+              </div>
+              <span class="badge">Coming soon</span>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- WHY THIS MATTERS — the five arguments, abbreviated -->
+    <section class="section" aria-labelledby="why-heading">
+      <div class="container container--text">
+
+        <div class="section-intro">
+          <p class="section-intro__eyebrow label-caps text-muted">The argument</p>
+          <h2 class="section-intro__heading display-md" id="why-heading">
+            This is a design problem, not a medical one.
+          </h2>
+        </div>
+
+        <div class="flex flex-col gap-8">
+
+          <div>
+            <h3 class="display-sm mb-4">The price isn't the problem. The system that produces it is.</h3>
+            <p class="text-muted">
+              Powered mobility devices cost $10,000–$20,000 not because the technology requires it,
+              but because the market is structured around insurance reimbursement, low volume,
+              and corporate overhead. The price is a product of the system, not the components.
+            </p>
+          </div>
+
+          <hr class="divider">
+
+          <div>
+            <h3 class="display-sm mb-4">Proprietary parts are a choice, not a necessity.</h3>
+            <p class="text-muted">
+              Standardization is proven across dozens of industries. The mobility device industry
+              chose not to use it. When a part fails and the serial number has worn off,
+              users don't have a repair problem — they have an information access problem
+              that was engineered in. ParaBoards uses standardized parts available from
+              common vendors. You can order replacements today.
+            </p>
+          </div>
+
+          <hr class="divider">
+
+          <div>
+            <h3 class="display-sm mb-4">Electric transport is already affordable for everyone else.</h3>
+            <p class="text-muted">
+              E-bikes start under $1,000 (about $1,000). Electric scooters under $500 (about $500).
+              The technology for affordable outdoor personal transport already exists.
+              The access gap for wheelchair users is a funding decision, not a technical limitation.
+              ParaBoards is designed for the life users want to live, not the one the system decided they get.
+            </p>
+          </div>
+
+        </div>
+
+        <div class="mt-8">
+          <a class="btn btn--outline" href="/philosophy/">Read the full argument</a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- NOTIFY CTA — Track A -->
+    <section class="section surface--tertiary" id="notify" aria-labelledby="notify-heading">
+      <div class="container">
+
+        <div class="section-intro">
+          <p class="section-intro__eyebrow label-caps text-muted">Stay informed</p>
+          <h2 class="section-intro__heading display-md" id="notify-heading">
+            Be the first to know when we launch.
+          </h2>
+          <p class="section-intro__body">
+            No spam. No timeline promises. We'll contact you when there's something real to say.
+          </p>
+        </div>
+
+        <!-- Track A: Notify form -->
+        <form
+          data-form="notify"
+          action="#"
+          method="post"
+          novalidate
+          aria-label="Get launch updates"
+        >
+          <div class="form-group mb-4">
+            <label class="form-label form-label--required" for="notify-email">
+              Email address
+            </label>
+            <div class="form-inline">
+              <input
+                class="form-input"
+                type="email"
+                id="notify-email"
+                name="email"
+                data-field="email"
+                autocomplete="email"
+                placeholder="you@example.com"
+                required
+                aria-required="true"
+              >
+              <button class="btn btn--primary" type="submit">
+                Get updates
+              </button>
+            </div>
+            <p
+              class="form-error"
+              id="notify-email-error"
+              data-error="email"
+              role="alert"
+              hidden
+            ></p>
+          </div>
+        </form>
+
+        <!-- Success state — shown by JS after submission -->
+        <div
+          data-success
+          class="form-success"
+          hidden
+          role="status"
+          aria-live="polite"
+        >
+          You're on the list. We'll be in touch when there's something to share.
+        </div>
+
+        <!-- Track B placeholder — deposit mechanism TBD -->
+        <p class="text-muted text-sm mt-8">
+          Want to hold a spot in line?
+          <a href="/faq/#deposit">Learn about our deposit option</a> — no timeline
+          implied or promised.
+        </p>
+
+      </div>
+    </section>
+
+
+  </main>
+
+
+  <!-- ======================================================
+       SITE FOOTER
+  ====================================================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+
+      <div class="footer__grid">
+
+        <div>
+          <a class="footer__logo" href="/">ParaBoards</a>
+          <p class="footer__tagline">"Everything we do is not that way."</p>
+        </div>
+
+        <nav aria-label="Product pages">
+          <p class="footer__col-heading">Products</p>
+          <ul class="footer__nav" role="list">
+            <li><a href="/system/">The System</a></li>
+            <li><a href="/chariot/">The Chariot</a></li>
+            <li><a href="/paraboards/">Original ParaBoards</a></li>
+            <li><a href="/parascooter/">ParaScooter</a></li>
+            <li><a href="/battery/">Battery Box</a></li>
+            <li><a href="/build/">Build Your Setup</a></li>
+          </ul>
+        </nav>
+
+        <nav aria-label="Site pages">
+          <p class="footer__col-heading">Company</p>
+          <ul class="footer__nav" role="list">
+            <li><a href="/philosophy/">Philosophy</a></li>
+            <li><a href="/pricing/">Pricing</a></li>
+            <li><a href="/faq/">FAQ</a></li>
+            <li><a href="/about/">About</a></li>
+          </ul>
+        </nav>
+
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__legal">
+          &copy; 2026 ParaBoards LLC. All rights reserved.
+          <a href="/terms/">Terms and Conditions</a> &middot;
+          <a href="/privacy/">Privacy Policy</a>
+        </p>
+        <p class="footer__legal">
+          All prices are projected targets and subject to change.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <script src="/assets/js/main.js" defer></script>
+
+</body>
+</html>
