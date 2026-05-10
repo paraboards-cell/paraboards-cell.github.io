@@ -688,9 +688,15 @@ main { flex: 1; }
 }
 
 /* Notify CTA section — always centered */
-#notify > .container,
-#notify > .container > * {
+#notify > .container {
   text-align: center;
+}
+
+#notify form,
+#notify [data-success] {
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Notify form wrapper — centers the form in CTA sections */
